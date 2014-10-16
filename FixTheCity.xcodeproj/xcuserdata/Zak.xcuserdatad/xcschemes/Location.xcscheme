@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5C90908B18B3A66A00510153"
-               BuildableName = "Location.app"
+               BuildableName = "FixTheCity.app"
                BlueprintName = "Location"
-               ReferencedContainer = "container:Location.xcodeproj">
+               ReferencedContainer = "container:FixTheCity.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "5C9090AC18B3A66A00510153"
                BuildableName = "LocationTests.xctest"
                BlueprintName = "LocationTests"
-               ReferencedContainer = "container:Location.xcodeproj">
+               ReferencedContainer = "container:FixTheCity.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -49,7 +49,7 @@
                BlueprintIdentifier = "5C9090AC18B3A66A00510153"
                BuildableName = "LocationTests.xctest"
                BlueprintName = "LocationTests"
-               ReferencedContainer = "container:Location.xcodeproj">
+               ReferencedContainer = "container:FixTheCity.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5C90908B18B3A66A00510153"
-            BuildableName = "Location.app"
+            BuildableName = "FixTheCity.app"
             BlueprintName = "Location"
-            ReferencedContainer = "container:Location.xcodeproj">
+            ReferencedContainer = "container:FixTheCity.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5C90908B18B3A66A00510153"
-            BuildableName = "Location.app"
+            BuildableName = "FixTheCity.app"
             BlueprintName = "Location"
-            ReferencedContainer = "container:Location.xcodeproj">
+            ReferencedContainer = "container:FixTheCity.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5C90908B18B3A66A00510153"
-            BuildableName = "Location.app"
+            BuildableName = "FixTheCity.app"
             BlueprintName = "Location"
-            ReferencedContainer = "container:Location.xcodeproj">
+            ReferencedContainer = "container:FixTheCity.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

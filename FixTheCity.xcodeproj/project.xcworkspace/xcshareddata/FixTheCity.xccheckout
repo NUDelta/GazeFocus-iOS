@@ -22,7 +22,7 @@
 		<key>029FEF2044F706BEE450019BE965248136ECB26E</key>
 		<string>../..</string>
 		<key>8DAD9EA9A06370E6D5304095B2313120956E6F0F</key>
-		<string>../../../../Documents/Delta/Gazeios/GazeFocus</string>
+		<string>../../../Documents/Delta/Gazeios/GazeFocus</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/voyage11/Location.git</string>
