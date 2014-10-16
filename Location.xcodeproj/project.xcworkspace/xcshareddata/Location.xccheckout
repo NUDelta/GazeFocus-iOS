@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E7AFC195-9A48-45A4-AF19-84BF5E53C580</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Location</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>029FEF2044F706BEE450019BE965248136ECB26E</key>
+		<string>https://github.com/voyage11/Location.git</string>
+		<key>8DAD9EA9A06370E6D5304095B2313120956E6F0F</key>
+		<string>https://github.com/NUDelta/GazeFocus-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Location.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>029FEF2044F706BEE450019BE965248136ECB26E</key>
+		<string>../..</string>
+		<key>8DAD9EA9A06370E6D5304095B2313120956E6F0F</key>
+		<string>../../../Documents/Delta/Gazeios/GazeFocus</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/voyage11/Location.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>029FEF2044F706BEE450019BE965248136ECB26E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8DAD9EA9A06370E6D5304095B2313120956E6F0F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GazeFocus</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>029FEF2044F706BEE450019BE965248136ECB26E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Location</string>
+		</dict>
+	</array>
+</dict>
+</plist>
