@@ -53,6 +53,7 @@
         NSString *valueToSave = self.username.text;
         NSInteger user_id = [[json objectForKey:@"id"] intValue];
         [[NSUserDefaults standardUserDefaults] setObject:valueToSave forKey:@"userName"];
+        [[NSUserDefaults standardUserDefaults] setInteger:0 forKey:@"score"];
         [[NSUserDefaults standardUserDefaults] setInteger:user_id forKey:@"userId"];
         [[NSUserDefaults standardUserDefaults] synchronize];
         [self performSegueWithIdentifier:@"WelcomeToTask" sender:sender];

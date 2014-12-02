@@ -281,6 +281,7 @@
 				ORGANIZATIONNAME = Location;
 				TargetAttributes = {
 					5C90908B18B3A66A00510153 = {
+						DevelopmentTeam = W4E2C6X642;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;

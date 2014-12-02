@@ -7,6 +7,7 @@
 //
 
 #import "LocationTracker.h"
+#import "LocationViewController.h"
 
 #define LATITUDE @"latitude"
 #define LONGITUDE @"longitude"
@@ -290,9 +291,16 @@
         
         if ([[UIApplication sharedApplication] applicationState] == UIApplicationStateBackground) {
             UILocalNotification *notification = [[UILocalNotification alloc] init];
-            notification.alertBody = @"New Task!";
+            notification.alertBody = ques;
             [[UIApplication sharedApplication] presentLocalNotificationNow:notification];
 //            [[NSNotificationCenter defaultCenter] postNotificationName:@"refreshView" object:nil];
+        } else {
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"New Task!"
+                                                            message:@"New task right where you are. Do you want to answer?"
+                                                            delegate:self
+                                                            cancelButtonTitle:@"No"
+                                                            otherButtonTitles:@"Yes", nil];
+            [alert show];
         }
 
     }
@@ -306,7 +314,26 @@
     self.shareModel.myLocationArray = [[NSMutableArray alloc]init];
 }
 
-
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
+{
+    NSLog(@"Button Index =%ld",buttonIndex);
+    if (buttonIndex == 0)
+    {
+        NSLog(@"You have clicked No");
+    }
+    else if(buttonIndex == 1)
+    {
+        NSLog(@"You have clicked GOO");
+//        self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+        
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        
+        UIViewController *viewController = [storyboard instantiateViewControllerWithIdentifier:@"LocationViewController"];
+//        self.window.rootViewController = viewController;
+        UIViewController *root = [UIApplication sharedApplication].keyWindow.rootViewController;
+        [root presentViewController:viewController animated:YES completion:nil];
+    }
+}
 
 
 @end

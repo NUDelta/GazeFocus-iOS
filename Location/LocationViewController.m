@@ -157,6 +157,8 @@
         NSLog(@"%@", @"Error in submitting answer");
     }else{
         NSLog(@"%@", @"Answer submitted!");
+        NSInteger score = [[json objectForKey:@"score"] intValue];
+        [[NSUserDefaults standardUserDefaults] setInteger:score forKey:@"score"];
         
         UIView* roundedView2 = [[UIView alloc] initWithFrame: CGRectMake((self.view.center.x)-125, (self.view.center.y)+50, 250, 200)];
         roundedView2.layer.cornerRadius = 5.0;
@@ -165,7 +167,7 @@
         
         UILabel *question = [[UILabel alloc] initWithFrame:CGRectMake(0, 60, 250, 100)];
         question.numberOfLines = 0;
-        [question setText:@"Thanks for submitting! Enjoy your day."];
+        [question setText:[NSString stringWithFormat:@"You earned 100 CityPoints! You have %d total CityPoints", score]];
         [question setTextColor:[UIColor blackColor]];
         [question setTextAlignment:NSTextAlignmentCenter];
         [question setBackgroundColor:[UIColor clearColor]];
@@ -176,7 +178,7 @@
         [[NSUserDefaults standardUserDefaults] setBool:false forKey:@"task"];
         [[NSUserDefaults standardUserDefaults] synchronize];
         
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 2 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 4 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
             UIApplication *app = [UIApplication sharedApplication];
             [app performSelector:@selector(suspend)];
         });

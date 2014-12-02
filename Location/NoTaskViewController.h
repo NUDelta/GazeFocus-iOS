@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NoTaskViewController : UIViewController
+@interface NoTaskViewController : UIViewController<UIAlertViewDelegate>
 
 @end
